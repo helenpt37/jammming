@@ -15,7 +15,7 @@ function App() {
     } else {
       window.location.href = endpoint;
     }
-    // eslint-disable-next-line react-hooks/exhaustive-depsx
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const newUrl = window.location.href.replace("#", "&");
