@@ -1,0 +1,21 @@
+.songs {
+    color: white;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remove-button {
+    padding: 5px;
+}
+h2 {
+    margin-bottom: 3px;
+    font-size: 1rem;
+}
+
+h3 {
+    margin-top: 3px;
+    font-size: .75rem;
+    font-weight: 300;
+}
