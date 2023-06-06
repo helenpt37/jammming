@@ -6,7 +6,7 @@ import Playlist from "../Playlist/Playlist.js";
 function App() {
   const URL = "https://accounts.spotify.com/authorize";
   const clientId = "2954a5f122c04df18771117dfaf4b709";
-  const redirectUri = window.location.origin;
+  const redirectUri = window.location.origin + "/";
   const endpoint = `${URL}?response_type=token&client_id=${clientId}&redirect_uri=${redirectUri}&scope=playlist-modify-private`;
 
   useEffect(() => {
